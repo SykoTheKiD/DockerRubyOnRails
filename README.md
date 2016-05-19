@@ -12,4 +12,4 @@
 ### Docker Deployment
 1. Run `docker-compose build`
 2. After building run `docker-compose up` to start up the Puma Server
-3. In your browser go to your docker machine's IP address on port 3000 and you should see your app running
+3. In your browser go to your docker machine's IP address on **port 3000** and you should see your app running
