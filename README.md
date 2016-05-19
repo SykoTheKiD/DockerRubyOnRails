@@ -1,4 +1,4 @@
-## Django Rest Application in Docker with Continuous Integration
+## Ruby on Rails Application in Docker with Continuous Integration
 ### Includes
 * Ruby + Rails
 * Puma
