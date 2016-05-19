@@ -7,7 +7,7 @@
 ### Setup
 1. Place the entire contents of your Rails project inside the `app/` folder
 2. Inside your **Gemfile** add the **puma** gem. (`gem 'puma'`)
-3. Add the `puma.rb` file inside the `config` folder of your Rails project
+3. Add the `puma.rb` file inside the `config/` folder of your Rails project
 
 ### Docker Deployment
 1. Run `docker-compose build`
