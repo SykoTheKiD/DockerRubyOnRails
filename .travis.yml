@@ -1,0 +1,17 @@
+language: ruby
+
+cache: bundler
+
+rvm:
+  - 2.1.2
+
+ruby:
+  - 2.3.0
+  
+before_script:
+   - cd app/
+   - bundle install
+
+script:
+  - rake db:migrate RAILS_ENV=test
+  - rake test
